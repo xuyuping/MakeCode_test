@@ -332,25 +332,26 @@ namespace MUVisionSensor {
     export function get_color_value(id:SENSORS,item:ColorParams):number{
         return 0
     }
-    //% block="get%id|🔳 Shape Card =%type" color="#2E8B57"
+    //% block="%id|get 🔳 Shape Card =%type" color="#2E8B57"
     //% shim=muvs::get_shape_card_type
     //% group="Functions"
     export function get_shape_card_type(id:SENSORS,type:SHAPE_CARD_TYPE):boolean{
         return true
     }
-    //% block="get%id|🔳 Traffic Card =%type" color="#2E8B57"
+    //% block="%id|get 🔳 Traffic Card =%type" color="#2E8B57"
+
     //% shim=muvs::get_traffic_card_type
     //% group="Functions"
     export function get_traffic_card_type(id:SENSORS,type:TRAFFIC_CARD_TYPE):boolean{
         return true
     }
-    //% block="get%id|🔳 Number Card =%type" color="#2E8B57"
+    //% block="%id|get 🔳 Number Card =%type" color="#2E8B57"
     //% shim=muvs::get_number_card_type
     //% group="Functions"
     export function get_number_card_type(id:SENSORS,type:NUM_CARD_TYPE):boolean{
         return true
     }
-    //% block="get%id|algorithm 🌈 Color Recognition color =%color" color="#2E8B57"
+    //% block="%id|get algorithm 🌈 Color Recognition color =%color" color="#2E8B57"
     //% shim=muvs::get_color_recognize
     //% group="Functions"
     export function get_color_recognize(id:SENSORS,color:COLOR_TYPE):boolean{
