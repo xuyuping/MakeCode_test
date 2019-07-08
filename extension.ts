@@ -351,7 +351,7 @@ namespace MUVisionSensor {
     export function get_number_card_type(id:SENSORS,type:NUM_CARD_TYPE):boolean{
         return true
     }
-    //% block="%id|get algorithm 🌈 Color Recognition color =%color" color="#2E8B57"
+    //% block="%id|get 🌈 Color Recognition color =%color" color="#2E8B57"
     //% shim=muvs::get_color_recognize
     //% group="Functions"
     export function get_color_recognize(id:SENSORS,color:COLOR_TYPE):boolean{
