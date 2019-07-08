@@ -266,7 +266,7 @@ namespace MUVisionSensor {
     export function VisionBegin(id:SENSORS,enable:ENABLES,type:VISION_TYPE) {
         return
     }
-    //% blockId=MU_set_level block="%id|set algorithm%VISION_TYPE|Level%level"
+    //% blockId=MU_set_level block="%id|algorithm%VISION_TYPE|Level%level"
     //% weight=96
     //% shim=muvs::set_level
     //% group="Settings" advanced=true
@@ -281,7 +281,7 @@ namespace MUVisionSensor {
         return 
     }
 
-    //% blockId=MU_set_baudrate block="%id|set baudrate%baud"
+    //% blockId=MU_set_baudrate block="%id|baudrate%baud"
     //% weight=94 inlineInputMode=inline
     //% shim=muvs::set_baudrate
     //% group="Settings" advanced=true
@@ -289,7 +289,7 @@ namespace MUVisionSensor {
     export function set_baudrate(id:SENSORS,baud:BaudRate) {
         return 
     }
-    //% blockId=MU_set_awb block="%id|set white balance%level"
+    //% blockId=MU_set_awb block="%id|white balance%level"
     //% weight=93
     //% shim=muvs::set_WB
     //% group="Settings" advanced=true
