@@ -320,7 +320,7 @@ namespace MUVisionSensor {
     export function MuVs2GetColorDetectLabel(id:SENSORS,label:COLOR_TYPE):boolean{
         return true
     }
-    //% block="get%id|algorithm%type|%item" color="#2E8B57"
+    //% block="get%id|%type|%item" color="#2E8B57"
     //% shim=muvs::get_value
     //% group="Functions"
     export function get_value(id:SENSORS,type:_VISION_TYPE,item:Params):number{
