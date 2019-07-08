@@ -308,13 +308,13 @@ namespace MUVisionSensor {
     export function detected(id:SENSORS,type:VISION_TYPE):boolean{
         return true
     }
-    //% block="%id|is detected 🌈 Color Recognition x=%x|y=%y" color="#2E8B57"
+    //% block="%id|is detected 🌈 Color Recognition x%x|y%y" color="#2E8B57"
     //% shim=muvs::MuVs2GetColorRCGLabel
     //% group="Functions"
     export function MuVs2GetColorRCGLabel(id:SENSORS,x:number,y:number):boolean{
         return true
     }
-    //% block="%id|is detected 🌈 Color Block color=%color" color="#2E8B57"
+    //% block="%id|is detected 🌈 Color Block color%color" color="#2E8B57"
     //% shim=muvs::MuVs2GetColorDetectLabel
     //% group="Functions"
     export function MuVs2GetColorDetectLabel(id:SENSORS,label:COLOR_TYPE):boolean{
