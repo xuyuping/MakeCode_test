@@ -97,21 +97,21 @@ namespace MUVisionSensor {
         LED_WHITE
     }
     export enum COLOR_TYPE {
-        //% block="black"
+        //% block="Black"
         BLACK=1,
-        //% block="white"
+        //% block="White"
         WHITE,
-        //% block="red"
+        //% block="Red"
         RED,
-        //% block="yellow"
+        //% block="Yellow"
         YELLOW,
-        //% block="green"
+        //% block="Green"
         GREEN,
-        //% block="cyan"
+        //% block="Cyan"
         CYAN,
-        //% block="blue"
+        //% block="Blue"
         BLUE,
-        //% block="purple"
+        //% block="Purple"
         PURPLE,
         //% block="others"
         UNKOWN=0
@@ -139,27 +139,27 @@ namespace MUVisionSensor {
         NUM_CARD_0=0,
     }
     export enum VisionLevel {
-        //% block="Auto"
+        //% block="auto"
         LEVEL_AUTO=0,
-        //% block="Speed"
+        //% block="speed"
         LEVEL_HIGH_SPEED,
-        //% block="Balance"
+        //% block="balance"
         LEVEL_NORMAL,
-        //% block="Accuracy"
+        //% block="accuracy"
         LEVEL_HIGH_ACCURACY
     }
     export enum VisionZoom {
-        //% block="Auto"
+        //% block="auto"
         Default,
-        //% block="Level1"
+        //% block="level1"
         LEVEL_1,
-        //% block="Level2"
+        //% block="level2"
         LEVEL_2,
-        //% block="Level3"
+        //% block="level3"
         LEVEL_3,
-        //% block="Level4"
+        //% block="level4"
         LEVEL_4,
-        //% block="Level5"
+        //% block="level5"
         LEVEL_5
     }
     export enum BaudRate {
